@@ -1,10 +1,81 @@
 <html>
+  <html lang="en-us">
+
+    <head>
+      <meta charset="UTF-8">
+      <!-- <title>Bootstrap Visualization Dashboard</title> -->
+      <!-- reset the style -->
+      <link rel="stylesheet" href="reset.css">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <!-- Set the style with style.css -->
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="shortcut icon" type="image/jpg" href="./static/favicon.ico"/>
+      <!-- <body background="static/pic.jpg"></body> -->
+    </head>
+
+<!-- Title -->
+<div style="margin: a
+uto; padding: 1%; text-align: center; color: darkblue ; font-weight: bold;"><h1><b>CREDIT CARD APPROVAL PREDICTION</b></h1></div>
+<!-- <background-color: blue; opacity: 0.9; > -->
+
+<!-- Prediction Text -->
+<div class="row justify-content-center">
+
+  <div class="col-md-auto" style= "margin-top: 16px">
+    <div class="result">
+      {% if prediction_text %}
+        <!-- <h2 style="padding: 3%; background-color: #ffffff; opacity: 0.9; text-align:center"><b>{{ prediction_text }}</b></h2> -->
+        <h5 style="background-color: #ffffff; opacity: 0.9; text-align:center">*Noted: 
+          this is only a prediction based on machine learning for pre-approval process </h5>
+      {% endif %}	
+    </div>
+  </div>
+
+</div>
+
+
+    <div class="container">
+      <br>
+      <div class="row">
+        <!-- left side -->
+        <div class="col col-12 col-lr-8 divbdy">
+          <br>
+         
+          <h3 class="text-primary" style="text-align:left;" >Introduction:</h3>
+          <hr>
+          <!-- <img src="D:\GT-VIRT-DATA-PT-03-2022-U-LOL\Credit_Card_Approval_Project\Updated 1\Credit_Card_Approval_Project\static\pic.png" > -->
+          <p>Credit card debt has recently surged in the United States as Americans borrowed billions of dollars to continue spending in the face of growing inflation. Credit card balances increased $46 billion in the second quarter, a 5.5 percent increase from the first quarter, and there was also an uptick in new credit card accounts. The 13 percent increase from the second quarter of 2021 to the second quarter of 2022 was the biggest such jump in more than 20 years. Americans are borrowing more which primarily can be attributable to higher prices</p>
+          <p>In this project, our goal was to build a credit card approval predictor</p>
+          <hr>
+        </div>
+
+<!-- Form -->
+<div class="row justify-content-center">
+
+  <div class="col-auto" style="background-color: white; opacity: 0.9; margin: 10px">
+
+    <br>
+
+    <h3 class="text-primary" style="text-align:left;">Please fill out form below:</h3>
+
+    <hr>
+
+ <!-- Main Input For Receiving Query to our ML -->
+ <form action="{{ url_for('predict')}}"method="post" style="padding-left: 0">
+  <fieldset style="float:center;height: 390px;">
+
+
+
+
 <body>
-    <h3>Credit Approval Prediction</h3>
- 
+    <!-- <h3>Credit Approval Prediction</h3> -->
 <div>
   <form action="/result" method="POST">
-    <label for="Gender">Gender</label>
+      <label for="Gender">Gender</label>
     <select id="Gender" name="Gender">
       <option value="0">Female</option>
       <option value="1">Male</option>
@@ -47,31 +118,31 @@
       <option value="1">Yes</option>
     </select>
     <br>
-    <label for="houtp_Co-op">house type: Co-op</label>
+    <label for="houtp_Co-op">House type: Co-op</label>
     <select id="houtp_Co-op" name="houtp_Co-op">
       <option value="0">No</option>
       <option value="1">Yes</option>
     </select>
     <br>
-    <label for="houtp_Municipal">house type: Municipal</label>
+    <label for="houtp_Municipal">House type: Municipal</label>
     <select id="houtp_Municipal" name="houtp_Municipal">
       <option value="0">No</option>
       <option value="1">Yes</option>
     </select>
     <br>
-    <label for="houtp_Office">house type: Office</label>
+    <label for="houtp_Office">House type: Office</label>
     <select id="houtp_Office" name="houtp_Office">
       <option value="0">No</option>
       <option value="1">Yes</option>
     </select>
     <br>
-    <label for="houtp_Rented">house type: Rented Apartment</label>
+    <label for="houtp_Rented">House type: Rented Apartment</label>
     <select id="houtp_Rented" name="houtp_Rented">
       <option value="0">No</option>
       <option value="1">Yes</option>
     </select>
     <br>
-    <label for="houtp_WithP">house type: Living with Parents</label>
+    <label for="houtp_WithP">House type: Living with Parents</label>
     <select id="houtp_WithP" name="houtp_WithP">
       <option value="0">No</option>
       <option value="1">Yes</option>
@@ -119,11 +190,20 @@
       <option value="1">Yes</option>
     </select>
     <br>
-    <input type="submit" value="Submit">
+    <!-- <input type="submit" value="Submit"> -->
+    <button type="submit" class="btn btn-primary btn-block btn-large"><b>Submit</b></button>	
   </form>
 </div>
 <br>
 <br>
-    <h1> {{ prediction_text }}</h1>
+
+<div class="col-md-auto" style= "margin-top: 10px">
+  <div class="result">
+    {% if prediction_text %}
+      <h5 style="padding: 3%; background-color: #ffffff; opacity: 0.9; text-align:center"><b>{{ prediction_text }}</b></h5>
+     {% endif %}
+  </div>
+</div>
+    
 </body>
 </html>

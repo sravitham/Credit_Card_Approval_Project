@@ -53,6 +53,10 @@ Observation:
 
 # Cleaning data
 
+Removing extraneous columns
+Null values
+Duplicates
+
 
 ## Data Visualization
 For gathering insights.
@@ -63,5 +67,11 @@ Here, the models used are:-
 
 Random Forest Classifier
 Decision Tree Classifier
+
+## Export the model: 
+
+## Heroku deployment:
+
+
 
 

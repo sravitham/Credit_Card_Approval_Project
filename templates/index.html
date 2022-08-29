@@ -1,0 +1,129 @@
+<html>
+<body>
+    <h3>Credit Approval Prediction</h3>
+ 
+<div>
+  <form action="/result" method="POST">
+    <label for="Gender">Gender</label>
+    <select id="Gender" name="Gender">
+      <option value="0">Female</option>
+      <option value="1">Male</option>
+    </select>
+    <br>
+    <label for="Reality">Reality</label>
+    <select id="Reality" name="Reality">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <p>Select Number of children. (only option)</p>
+    <label for="ChldNo_1">One Child</label>
+    <select id="ChldNo_1" name="ChldNo_1">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <label for="ChldNo_2More">Two or More Children</label>
+    <select id="ChldNo_2More" name="ChldNo_2More">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <label for="wkphone">Work Phone</label>
+    <select id="wkphone" name="wkphone">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <label for="famsizegp_1">Family Size of 1</label>
+    <select id="famsizegp_1" name="famsizegp_1">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <label for="famsizegp_3more">Family Size of 3 or More</label>
+    <select id="famsizegp_3more" name="famsizegp_3more">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <label for="houtp_Co-op">house type: Co-op</label>
+    <select id="houtp_Co-op" name="houtp_Co-op">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <label for="houtp_Municipal">house type: Municipal</label>
+    <select id="houtp_Municipal" name="houtp_Municipal">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <label for="houtp_Office">house type: Office</label>
+    <select id="houtp_Office" name="houtp_Office">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <label for="houtp_Rented">house type: Rented Apartment</label>
+    <select id="houtp_Rented" name="houtp_Rented">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <label for="houtp_WithP">house type: Living with Parents</label>
+    <select id="houtp_WithP" name="houtp_WithP">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <label for="edutp_Higher">Education Level: High</label>
+    <select id="edutp_Higher" name="edutp_Higher">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <label for="edutp_Incomplete">Education Level: Incomplete</label>
+    <select id="edutp_Incomplete" name="edutp_Incomplete">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <label for="edutp_Lower">Education Level: Lower</label>
+    <select id="edutp_Lower" name="edutp_Lower">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <label for="inctp_Commercial">Commercial Income</label>
+    <select id="inctp_Commercial" name="inctp_Commercial">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <label for="inctp_State">State Income</label>
+    <select id="inctp_State" name="inctp_State">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <label for="gp_inc_high">High Income</label>
+    <select id="gp_inc_high" name="gp_inc_high">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <label for="gp_inc_medium">Medium Income</label>
+    <select id="gp_inc_medium" name="gp_inc_medium">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<br>
+<br>
+    <h1> {{ prediction_text }}</h1>
+</body>
+</html>

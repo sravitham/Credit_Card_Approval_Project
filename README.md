@@ -54,7 +54,9 @@ Observation:
 # Cleaning data
 
 Removing extraneous columns
+
 Null values
+
 Duplicates
 
 

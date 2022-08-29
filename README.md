@@ -71,9 +71,12 @@ Here, the models used are:-
 Random Forest Classifier
 Decision Tree Classifier
 
+
 ## Export the model: 
 
-## Heroku deployment:
+## Develop web application with Flask and intergrate model in the app
+
+## Deployment web app in Heroku
 
 
 

@@ -8,7 +8,7 @@ Credit card debt has recently surged in the United States as Americans borrowed 
 
 ![image](https://user-images.githubusercontent.com/99145651/187246959-508cbd8d-009a-4db8-b8e7-6fc68c7f83ae.png)
 
- In this project, The APR Group will utilize a datset to determine Credit Card Approval thruough Machine Learning. The structure will be as follows —
+ In this project, The APR Group will utilize a datset to determine Credit Card Approval thruogh Machine Learning. The structure will be as follows —
 
 ## Tasks
 * Loading and viewing the dataset.

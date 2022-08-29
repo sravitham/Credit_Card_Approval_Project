@@ -16,6 +16,7 @@ Credit card debt has recently surged in the United States as Americans borrowed 
 * To perform exploratory data analysis on dataset.
 * To pre-process data before applying machine learning model to the dataset.
 * To apply machine learning model that can predict whether an applicant approval for a credit card will be accepted or not.
+* Deploy a web application to Heroku
 
 ## Importing Libraries
 Importing necessary libraries such as NumPy for linear algebra, pandas for data processing, seaborn, and matplotlib for data visualizations.

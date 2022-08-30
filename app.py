@@ -12,7 +12,7 @@ def home():
 
 # prediction function
 def ValuePredictor(to_predict_list):
-    to_predict = np.array(to_predict_list).reshape(1, 19)
+    to_predict = np.array(to_predict_list).reshape(1, 18)
     model = pickle.load(open("model_r.pkl", "rb"))
     result = model.predict(to_predict)
     return result[0]
@@ -26,9 +26,9 @@ def predict():
         to_predict_list = list(map(int, to_predict_list))
         result = ValuePredictor(to_predict_list)       
         if int(result)== 1:
-            prediction ='Not at Risk'
+            prediction ='Status: Not at Risk'
         else:
-            prediction ='At Risk'           
+            prediction ='Status: At Risk'           
         return render_template("index.html", prediction_text = prediction)
     
 

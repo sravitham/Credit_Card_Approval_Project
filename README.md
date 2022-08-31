@@ -8,15 +8,21 @@ Credit card debt has recently surged in the United States as Americans borrowed 
 
 ![image](https://user-images.githubusercontent.com/99145651/187246959-508cbd8d-009a-4db8-b8e7-6fc68c7f83ae.png)
 
- In this project, The APR Group will utilize a datset to determine Credit Card Approval thruogh Machine Learning. The structure will be as follows —
+ In this project, The APR Group will collect data related to determining credit card approval. Therefore, revelant details such as annual income, occcuputation type, job experience and other features utilize in a datset to determine Credit Card Approval through Machine Learning. 
 
 ## Tasks
-* Loading and viewing the dataset.
-* To manipulate data, if there are any missing entries in the dataset.
-* To perform exploratory data analysis on dataset.
-* To pre-process data before applying machine learning model to the dataset.
-* To apply machine learning model that can predict whether an applicant approval for a credit card will be accepted or not.
+* Load the dataset.
+* Manipulate data.
+* Analyze the dataset.
+* Pre-process data.
+* Apply machine learning model.
 * Deploy a web application to Heroku
+
+# Datasets
+
+application_record.csv 
+
+credit_record.csv
 
 ## Importing Libraries
 Importing necessary libraries such as NumPy for linear algebra, pandas for data processing, seaborn, and matplotlib for data visualizations.
@@ -49,8 +55,7 @@ Importing necessary libraries such as NumPy for linear algebra, pandas for data 
 
 ## Checking and Cleaning of Dataset
 
-Observation: 
-
+It was a key step to ensure the data is good and formatted. There are often issues that can must be addressed. Data can often have inconsistency, missing values or duplicates to name a few. Therefore, it is important to review the data to determine how to clean it to become a useful, good dataset. 
 
 
 # Cleaning data

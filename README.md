@@ -87,12 +87,15 @@ Logistice Regression
 
 ## Develop web application with Flask and intergrate model in the app
 
-![image](https://user-images.githubusercontent.com/99145651/187712237-b8fbe76f-1753-461f-90ae-0f48fcea74ba.png)
-![image](https://user-images.githubusercontent.com/99145651/187712311-54a9fdd2-2a43-4c37-8bf3-deb507c8cfb6.png)
+![image](https://user-images.githubusercontent.com/99145651/187713164-7a4f68be-e236-4d0a-966a-81581fcd7b0f.png)
+
+![image](https://user-images.githubusercontent.com/99145651/187713467-8d2e5d79-2324-4b48-8d9e-abd358dea1a8.png)
+
 
 
 ## Deployment web app in Heroku
 
+![image](https://user-images.githubusercontent.com/99145651/187713650-d6a0f14e-4b5e-4a81-942b-50d7d35e555d.png)
 
 
 

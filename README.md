@@ -21,29 +21,30 @@ Credit card debt has recently surged in the United States as Americans borrowed 
 ## Importing Libraries
 Importing necessary libraries such as NumPy for linear algebra, pandas for data processing, seaborn, and matplotlib for data visualizations.
 
-import pandas as pd
-import psycopg2
-from sqlalchemy import create_engine
+* import pandas as pd
+* import psycopg2
+* from sqlalchemy import create_engine
 
-%matplotlib inline
+* % matplotlib inline
 
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+* import numpy as np
+* import matplotlib.pyplot as plt
+* import seaborn as sns
 
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, confusion_matrix
-from sklearn.linear_model import LogisticRegression
-from sklearn.tree import DecisionTreeClassifier
+* from sklearn.model_selection import train_test_split
+* from sklearn.metrics import accuracy_score, confusion_matrix
+* from sklearn.linear_model import LogisticRegression
+* from sklearn.tree import DecisionTreeClassifier
 
-from sklearn import svm
-from sklearn.ensemble import RandomForestClassifier
-from imblearn.over_sampling import SMOTE
+* from sklearn import svm
+* from sklearn.ensemble import RandomForestClassifier
+* from imblearn.over_sampling import SMOTE
 
-import pickle
+* import pickle
 
 ## Loading Dataset
 .
+![image](https://user-images.githubusercontent.com/99145651/187708578-bec30177-4298-43a8-822d-004e6a88956b.png)
 
 
 ## Checking and Cleaning of Dataset

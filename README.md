@@ -60,19 +60,12 @@ It was a key step to ensure the data is good and formatted. There are often issu
 
 # Cleaning data
 
-Removing extraneous columns
-
-Null values
-
 Duplicates
 
 ![image](https://user-images.githubusercontent.com/99145651/187709953-8610c8d2-6f51-47b5-8750-dfb8b4a9d7d3.png)
 
 
-## Data Visualization
-For gathering insights.
-
-Classification Modeling
+## Modeling
 
 Here, the models used are:-
 
@@ -88,7 +81,7 @@ Logistice Regression
 
 ![image](https://user-images.githubusercontent.com/99145651/187711874-444b61b8-e2c3-4a61-97b1-a9bbdc335ba4.png)
 
-## Export the model: 
+
 
 ## Develop web application with Flask and intergrate model in the app
 

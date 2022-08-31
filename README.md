@@ -72,6 +72,8 @@ Classification Modeling
 Here, the models used are:-
 
 Random Forest Classifier
+![image](https://user-images.githubusercontent.com/99145651/187710623-3407363c-0a4f-4907-ab46-fc359e3377c9.png)
+
 Decision Tree Classifier
 Logistice Regression
 

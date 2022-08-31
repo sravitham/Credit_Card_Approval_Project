@@ -66,8 +66,11 @@ Duplicates
 
 
 ## Modeling
+For Modeling purpose we have grouped columns like ChlddNo, inc, inctp, houtp based on the type of values. Using the concept of Weight of Evidence and Information Value for continuous dependent variables, we have created a new table with 1 or 0 values as you can see below:
 
-Here, the models used are:-
+
+
+Here, the models used are:
 
 Random Forest Classifier
 
@@ -77,7 +80,7 @@ Decision Tree Classifier
 
 ![image](https://user-images.githubusercontent.com/99145651/187711110-c98689b2-7509-4973-a3d0-e2ed841e85b8.png)
 
-Logistice Regression
+Logistic Regression
 
 ![image](https://user-images.githubusercontent.com/99145651/187711874-444b61b8-e2c3-4a61-97b1-a9bbdc335ba4.png)
 

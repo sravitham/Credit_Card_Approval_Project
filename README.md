@@ -75,6 +75,8 @@ Random Forest Classifier
 ![image](https://user-images.githubusercontent.com/99145651/187710623-3407363c-0a4f-4907-ab46-fc359e3377c9.png)
 
 Decision Tree Classifier
+![image](https://user-images.githubusercontent.com/99145651/187711110-c98689b2-7509-4973-a3d0-e2ed841e85b8.png)
+
 Logistice Regression
 
 

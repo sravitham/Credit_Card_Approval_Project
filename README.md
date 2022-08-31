@@ -61,6 +61,8 @@ Null values
 
 Duplicates
 
+![image](https://user-images.githubusercontent.com/99145651/187709953-8610c8d2-6f51-47b5-8750-dfb8b4a9d7d3.png)
+
 
 ## Data Visualization
 For gathering insights.
@@ -71,6 +73,7 @@ Here, the models used are:-
 
 Random Forest Classifier
 Decision Tree Classifier
+Logistice Regression
 
 
 ## Export the model: 

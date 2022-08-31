@@ -68,7 +68,7 @@ Duplicates
 ## Modeling
 For Modeling purpose we have grouped columns like ChlddNo, inc, inctp, houtp based on the type of values. Using the concept of Weight of Evidence and Information Value for continuous dependent variables, we have created a new table with 1 or 0 values as you can see below:
 
-
+![image](https://user-images.githubusercontent.com/51139020/187797838-484ccdba-6c4c-4657-92d0-c35404c8fa7c.png)
 
 Here, the models used are:
 

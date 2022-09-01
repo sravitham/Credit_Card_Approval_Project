@@ -94,7 +94,7 @@ Logistic Regression
 
 
 
-## Deployment web app in Heroku
+## Deployment web app 
 
 ![image](https://user-images.githubusercontent.com/99145651/187713650-d6a0f14e-4b5e-4a81-942b-50d7d35e555d.png)
 
